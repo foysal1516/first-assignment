@@ -1,0 +1,113 @@
+body{
+    font-family: federant;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.explore-container{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+.half-width img{
+    width: 50%;
+    padding-left: 150px;
+}
+
+.orange-clr{
+    color: orange;
+}
+.mission-title{
+    border-left: 5px solid;
+    border-image: linear-gradient(#FF5959, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(#FF5959, tomato);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.mission-2022{
+    text-align: center;
+}
+.mission-container{
+    display: flex;
+    margin: 0px 130px;
+    margin-bottom: 150px;
+}
+.mission-container img{
+    width: 300px;
+}
+.mission-container div{
+    margin-left: 20px;
+}
+.mission-area{
+    background-color: #948e8e;
+    border-radius: 10px;
+    padding: 20px;
+}
+.vission-area{
+    background-color: #f1c9c9;
+    border-radius: 10px;
+    padding: 20px;
+}
+.goal-area{
+    background-color: #FFF4D6;
+    border-radius: 10px;
+    padding: 20px;
+}
+.develop-container{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20em 80%;
+    background-position: left;
+    margin-bottom: 150px;
+}
+.develop-area{
+    display: flex;
+    margin-right: 100px;
+}
+.global-container{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 100px right 10px;
+}
+.global-area{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.about-me-container{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.about-text{
+    text-align: center;
+}
+.text-area{
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(247, 238, 238);
+    padding: 0px 20px;
+    padding-top: 100px;
+}
+.img-area img{
+    width: 40%;
+    margin-left: 400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+}
