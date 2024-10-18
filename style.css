@@ -1,0 +1,92 @@
+/* font awesome style */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* sheared style */
+.section-description {
+    color: #0D1321;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* banner styles */
+header {
+    background-image: url("assets/Hero-bg.png");
+    background-position: left top;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.hero {
+    max-width: 960px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 900;
+}
+
+.banner-description {
+    color: #0D1321;
+    opacity: 0.7;
+}
+
+.hero-img {
+    width: 240px;
+    height: 240px;
+}
+
+.btn-contact {
+    background-color: #0D1321;
+    padding: 18px 24px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 150px auto;
+}
+
+/* development section styles */
+.development-title {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.section-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-column {
+    width: 50%;
+}
+
+.column-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.btn-more {
+    padding: 12px 20px;
+    border: 2px solid #0D1321;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 600;
+
+}
