@@ -146,12 +146,14 @@ main section {
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
     padding: 40px;
+    width: 33.33%;
 }
 
 .target-css {
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
-    padding: 50px;
+    padding: 40px;
+    width: 33.33%;
 
 }
 
@@ -159,7 +161,7 @@ main section {
     background-color: rgba(255, 223, 0, 0.05);
     border-radius: 16px;
     padding: 40px;
-
+    width: 33.33%;
 }
 
 .target-title {
@@ -224,4 +226,5 @@ footer p {
 
 footer img {
     margin-left: 24px;
+    cursor: pointer;
 }
