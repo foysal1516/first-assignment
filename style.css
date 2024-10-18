@@ -53,6 +53,7 @@ header {
     padding: 18px 24px;
     color: #FFFFFF;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 main {
@@ -138,19 +139,19 @@ main section {
 .targets {
     display: flex;
     gap: 24px;
+    margin-top: 40px;
 }
 
 .target-html {
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
     padding: 40px;
-
 }
 
 .target-css {
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
-    padding: 40px;
+    padding: 50px;
 
 }
 
@@ -172,3 +173,55 @@ main section {
 }
 
 /* support styles */
+
+.support {
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    text-align: center;
+    padding: 64px;
+    border-radius: 16px;
+}
+
+.support-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.support-description {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.support input[type="text"] {
+    width: 548px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+.support input[type="submit"] {
+    padding: 15px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    padding: 38px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer img {
+    margin-left: 24px;
+}
