@@ -134,3 +134,41 @@ main section {
     margin: 0 auto;
     text-align: center;
 }
+
+.targets {
+    display: flex;
+    gap: 24px;
+}
+
+.target-html {
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+
+}
+
+.target-css {
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+
+}
+
+.target-js {
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+
+}
+
+.target-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.targets a {
+    color: #0D1321;
+    font-weight: bold;
+}
+
+/* support styles */
